@@ -8,13 +8,12 @@ body{
     width: 300px;
 }
 #botones{
-    font-size: 1rem;
+    font-size: 2rem;
     font-family:'Nunito', sans-serif;
     color: rgba(206, 34, 163, 1);
 }
 #botones:hover{
-   color: black;
-   font-size: 2,5rem;
+   color: rgb(151, 18, 212);
 }
 .style-section{
     color: black;
@@ -25,10 +24,10 @@ body{
     border-color: rgba(206, 34, 163, 1);
 }
 #titulos{
+    text-decoration: underline;
     text-align: center;
-    border: double;
     margin: auto;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family:'Nunito', sans-serif;
 }
 footer a{
     text-decoration: none;
@@ -37,6 +36,10 @@ footer a img{
     padding-top: 20px;
     padding-bottom: 20px;
 }
-#sectionfoot{
-    text-align: center;
+.borde{
+    border-style:dashed;
+    border-color: fuchsia;
+}
+#img-div{
+    width: 500px;
 }
