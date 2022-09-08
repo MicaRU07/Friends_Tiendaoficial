@@ -37,7 +37,7 @@ footer a img{
     padding-bottom: 20px;
 }
 .borde{
-    border-style:dashed;
+    border-style:hidden;
     border-color: fuchsia;
 }
 #img-div{
