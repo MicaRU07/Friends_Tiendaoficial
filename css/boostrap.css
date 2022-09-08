@@ -1,0 +1,42 @@
+body{
+    background-image:url(../imagenes/fondo.jpg);
+}
+.bg-ofi{
+    background-color: rgb(216, 156, 226)
+}
+#img{
+    width: 300px;
+}
+#botones{
+    font-size: 1rem;
+    font-family:'Nunito', sans-serif;
+    color: rgba(206, 34, 163, 1);
+}
+#botones:hover{
+   color: black;
+   font-size: 2,5rem;
+}
+.style-section{
+    color: black;
+    background-color: violet;
+    text-align: center;
+    margin: 2rem;
+    border-style: solid;
+    border-color: rgba(206, 34, 163, 1);
+}
+#titulos{
+    text-align: center;
+    border: double;
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+footer a{
+    text-decoration: none;
+}
+footer a img{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.foot{
+    text-align: center;
+}
