@@ -1,33 +1,51 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tienda oficial de Friends</title>
-    <link rel="shortcut icon" href="imagenes/logo.png" type="image/x-icon">
-    <link rel="stylesheet" href="css/style.css">
-</head>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="imagenes/favicon.svg" type="image/x-icon">
+
+    <!-- Boostrap min CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!--Mi css-->
+    <link rel="stylesheet" href="css/boostrap.css">
+
+    <!--animaciones-->
+    <link rel="stylesheet" href="css/animate.css">
+    
+    <title>Friends tienda oficial</title>
+  </head>
 <body>
-    <nav class="bg-ofi">
-        <a class="imgnav" href="index.html">
-            <img src="imagenes/logo.png" alt="Tienda oficial Friends">
-        </a>
-        <ul>
-            <li class="navdirection">
-                <a class="decorationnav" href="historia.html">Historia</a>
-            </li>
-            <li class="navdirection">
-                <a class="decorationnav" href="personajes.html">Personajes</a>
-            </li>
-            <li class="navdirection">
-                <a class="decorationnav" href="tienda.html">Tienda</a>
-            </li>
-            <li class="navdirection">
-                <a class="decorationnav" href="contacto.html">Contacto</a>
-            </li>
+<!--Comienza la nav-->
+<nav class="navbar navbar-expand-lg navbar-light bg-ofi sticky-top" id="botonera img" >
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
+        <img id=img src="imagenes/Friends_logo.svg" alt="">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-4 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" id="botones" aria-current="page" href="historia.html">Historia</a> 
+          </li>
+          <li>  
+            <a class="nav-link active" id="botones" aria-current="page" href="personajes.html">Personajes</a>
+          </li>
+          <li>
+            <a class="nav-link active" id="botones" aria-current="page" href="tienda.html">Tienda</a>
+          </li>
+          <li>
+            <a class="nav-link active" id="botones" aria-current="page" href="contacto.html">Nosotros</a>  
+          </li>
         </ul>
-    </nav>
+      </div>
+    </div>
+ </nav>
+<!-- fin de la nav -->
     <main class="text-line text-bold">
        <h1 class="bordes titulos">¿Queres susbribirte para enterarte diariamente todas nuestras ofertas y ademas ser parter del fandom mas grande de latinoamerica con todas las ultimas novedades de nuestra serie favorita?</h1>
         <section class="text-line">

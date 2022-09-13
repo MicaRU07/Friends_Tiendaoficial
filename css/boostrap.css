@@ -12,22 +12,23 @@ body{
     font-family:'Nunito', sans-serif;
     color: rgba(206, 34, 163, 1);
 }
-#botones:hover{
-   color: rgb(151, 18, 212);
-}
+    #botones:hover{
+        color:rgb(151, 18, 212) ;
+    }
 .style-section{
     color: black;
     background-color: violet;
     text-align: center;
-    margin: 2rem;
+    margin: 0.5rem;
+    padding: 0.5rem;
     border-style: solid;
     border-color: rgba(206, 34, 163, 1);
 }
 #titulos{
-    text-decoration: underline;
+    text-decoration:underline;
     text-align: center;
-    margin: auto;
-    font-family:'Nunito', sans-serif;
+    font-family:'Roboto',sans-serif;
+    font-weight: 600;
 }
 footer a{
     text-decoration: none;
@@ -41,5 +42,34 @@ footer a img{
     border-color: fuchsia;
 }
 #img-div{
-    width: 40rem;
+    width: 400px;
+}
+.parrafo{
+    color: rgba(141, 11, 141, 1);
+    font-family:'Open Sans', sans-serif;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.personajes{
+    width: 300px;
+    height: 300px;
+    cursor: pointer;
+}
+.titulo2{
+    background-color: violet;
+    border-style: double;
+    border-color: rgba(206, 34, 163, 1);
+    margin: 0.5rem;
+    width: max-content;
+}
+.style-tienda{
+    background-color: white;
+}
+.ancho{
+    width: 100%;
+}
+.j{
+    ali
 }
