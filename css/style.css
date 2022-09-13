@@ -29,15 +29,7 @@ nav ul li a:hover{
     padding-bottom: 20px;
     padding-top: 20px;
 }
-.parrafo{
-    color: rgba(141, 11, 141, 1);
-    font-family:'Open Sans', sans-serif;
-    font-size: 1rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
 
-}
 .bordes{
     border: double 5px rgb(187, 35, 238);
 }
