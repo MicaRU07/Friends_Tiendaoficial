@@ -1,0 +1,23 @@
+.style-section{
+    color: $colortitle;
+    background-color:$colorsection;
+    text-align: $align;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    border-style: solid;
+    border-color: $colorborde;
+}
+#titulos{
+    text-decoration:$titledecoration;
+    text-align: $align;
+    font-family:$titlet;
+    font-weight: $weightitle;
+}
+.parrafo{
+    color: $colorparrafo;
+    font-family: $parraft;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

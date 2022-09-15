@@ -1,0 +1,62 @@
+body {
+  background-image: url(../imagenes/fondo.jpg);
+}
+
+.bg-ofi {
+  background-color: rgb(216, 156, 226);
+}
+
+#img {
+  width: 300px;
+}
+
+#botones {
+  font-size: 2rem;
+  font-family: "Nunito", sans-serif;
+  color: rgb(206, 34, 163);
+}
+#botones:hover {
+  color: rgb(151, 18, 212);
+}
+
+.style-section {
+  color: black;
+  background-color: violet;
+  text-align: center;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  border-style: solid;
+  border-color: rgb(206, 34, 163);
+}
+
+#titulos {
+  text-decoration: underline;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+}
+
+.parrafo {
+  color: rgb(141, 11, 141);
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.bg-ofi {
+  background-color: rgb(216, 156, 226);
+}
+
+#img {
+  width: 300px;
+}
+
+footer a {
+  text-decoration: none;
+}
+footer a img {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
