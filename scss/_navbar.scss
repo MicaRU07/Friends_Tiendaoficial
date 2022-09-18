@@ -3,7 +3,7 @@ body{
     background-image:url(../imagenes/fondo.jpg);
 }
 .bg-ofi{
-    background-color: $incfin;
+    background-color: map-get($map: $colorproyect, $key: 'principal');;
 }
 #img{
     width: $Imglogo;
@@ -11,8 +11,8 @@ body{
 #botones{
     font-size: 2rem;
     font-family: $botonerat;
-    color: $colorbotones;
+    color: map-get($map: $colorproyect, $key: 'button');
     &:hover{
-        color:$hover;
+     color:map-get($map: $colorproyect, $key: 'hover');
     }
 }
