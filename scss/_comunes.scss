@@ -1,14 +1,21 @@
-$incfin:rgb(216, 156, 226);
 $Imglogo: 300px;
-$colortitle: black;
-$hover:rgba(151,18,212);
-$colorborde:rgba(206,34,163,1);
-$colorparrafo:rgba(141,11,141,1);
-$colorbotones:rgba(206,34,163,1);
-$colorsection:violet;
 $titledecoration: underline;
 $align:center;
 $weightitle:600;
 $decofoo:none;
+$imghistoria:400px;
+
+//maps
+$colorproyect:(
+    'principal':rgb(216, 156, 226),
+    'titulos': black,
+    'info': violet,
+    'hover': rgba(151,18,212),
+    'bordes':rgba(206,34,163,1),
+    'parrafos':rgba(141,11,141,1),
+    'button':rgba(206,34,163,1),
+);
+
+
 
 

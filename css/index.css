@@ -19,7 +19,7 @@ body {
   color: rgb(151, 18, 212);
 }
 
-.style-section {
+.style-section, .style-history {
   color: black;
   background-color: violet;
   text-align: center;
@@ -29,11 +29,19 @@ body {
   border-color: rgb(206, 34, 163);
 }
 
+.style-history {
+  border-radius: 5px;
+}
+
 #titulos {
   text-decoration: underline;
   text-align: center;
   font-family: "Roboto", sans-serif;
   font-weight: 600;
+}
+
+#img-div {
+  width: 400px;
 }
 
 .parrafo {
@@ -45,8 +53,20 @@ body {
   justify-content: center;
 }
 
-.bg-ofi {
-  background-color: rgb(216, 156, 226);
+.espacio {
+  display: flex;
+  justify-content: space-around;
+  justify-items: center;
+}
+
+.ancho {
+  width: 20rem;
+}
+
+.personajes {
+  width: 300px;
+  height: 300px;
+  cursor: pointer;
 }
 
 #img {
