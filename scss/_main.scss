@@ -1,16 +1,24 @@
 //extend
-.style-section{
+.style{
     color: map-get($map: $colorproyect, $key: 'titulos');
     background-color:map-get($map: $colorproyect, $key: 'info');
-    text-align: $align;
-    margin: 0.5rem;
-    padding: 0.5rem;
     border-style: solid;
     border-color: map-get($map: $colorproyect, $key: 'bordes');
 }
+.style-section{
+    @extend .style;
+    text-align: $align;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    border-color: map-get($map: $colorproyect, $key: 'bordes');
+}
 .style-history{
-    @extend .style-section;
+    @extend .style;
     border-radius: 5px;
+    text-align: $align;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    border-color: map-get($map: $colorproyect, $key: 'bordes');
 }
 #titulos{
     text-decoration:$titledecoration;
@@ -21,6 +29,7 @@
 #img-div{
     width: $imghistoria;
 }
+
 //mixin
 @mixin parrafo ($color,$font-family,$size) {
     color: $color;
@@ -46,7 +55,23 @@
     height: 300px;
     cursor: pointer;
 }
-
+.style-form{
+    @extend .style;
+    margin-left: 3rem;
+    margin-right: 5rem;
+    border-radius: 5px;
+    flex-direction: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0%;
+}
+.parrafo-form{
+    @include parrafo(map-get($map: $colorproyect, $key: 'titulos'),$parraft,1rem)
+}
+.color-button{
+    background-color: map-get($map: $colorproyect , $key:'button');
+    font-weight: 600;
+}
 
 
 
