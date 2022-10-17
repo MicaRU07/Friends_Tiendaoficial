@@ -1,7 +1,6 @@
 $Imglogo: 300px;
 $titledecoration: underline;
 $align:center;
-$weightitle:600;
 $decofoo:none;
 $imghistoria:400px;
 
@@ -9,11 +8,12 @@ $imghistoria:400px;
 $colorproyect:(
     'principal':rgb(216, 156, 226),
     'titulos': black,
-    'info': violet,
+    'info': rgba(238, 130, 238, 0.514),
     'hover': rgba(151,18,212),
     'bordes':rgba(206,34,163,1),
-    'parrafos':rgba(141,11,141,1),
-    'button':rgba(206,34,163,1),
+    'parrafos':rgb(141, 11, 141),
+    'button':rgba(206, 34, 163, 0.433),
+    'nav':rgb(206, 34, 163),
 );
 
 

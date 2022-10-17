@@ -21,7 +21,7 @@ body {
 
 .style, .style-form, .style-history, .style-section {
   color: black;
-  background-color: violet;
+  background-color: rgba(238, 130, 238, 0.514);
   border-style: solid;
   border-color: rgb(206, 34, 163);
 }
@@ -45,11 +45,26 @@ body {
   text-decoration: underline;
   text-align: center;
   font-family: "Roboto", sans-serif;
-  font-weight: 600;
+  font-size: x-large;
 }
 
 #img-div {
   width: 400px;
+}
+
+.titulopersonaje {
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.titulohisto {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.titulowhat {
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
 .parrafo {
@@ -78,13 +93,12 @@ body {
 }
 
 .style-form {
-  margin-left: 3rem;
-  margin-right: 5rem;
+  margin-left: 20%;
+  margin-right: 20%;
   border-radius: 5px;
   flex-direction: flex;
   align-items: flex-start;
   justify-content: flex-start;
-  padding: 0%;
 }
 
 .parrafo-form {
@@ -97,8 +111,7 @@ body {
 }
 
 .color-button {
-  background-color: rgb(206, 34, 163);
-  font-weight: 600;
+  background-color: rgba(206, 34, 163, 0.433);
 }
 
 #img {
