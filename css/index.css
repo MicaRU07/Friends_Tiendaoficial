@@ -21,7 +21,7 @@ body {
 
 .style, .style-form, .style-history, .style-section {
   color: black;
-  background-color: violet;
+  background-color: rgba(238, 130, 238, 0.514);
   border-style: solid;
   border-color: rgb(206, 34, 163);
 }
@@ -111,7 +111,7 @@ body {
 }
 
 .color-button {
-  background-color: rgb(206, 34, 163);
+  background-color: rgba(206, 34, 163, 0.433);
 }
 
 #img {

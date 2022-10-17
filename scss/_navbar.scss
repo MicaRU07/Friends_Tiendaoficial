@@ -11,7 +11,7 @@ body{
 #botones{
     font-size: 2rem;
     font-family: $botonerat;
-    color: map-get($map: $colorproyect, $key: 'button');
+    color: map-get($map: $colorproyect, $key: 'nav');
     &:hover{
      color:map-get($map: $colorproyect, $key: 'hover');
     }
