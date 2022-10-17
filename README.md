@@ -1,7 +1,7 @@
-Proyecto: 📋Friends_Tiendaoficial
-Este proyecto fue pensado y llevado a cabo por hobby y con mucho esfuerzo detras para comenzar mi camino como desarrolladora y con esto mostrar un poco de lo que me gusta consumir cuando quiero ver una serie que me divierta mucho como lo es Friends. 😀
+# Proyecto: 📋Friends_Tiendaoficial
+## Este proyecto fue pensado y llevado a cabo por hobby y con mucho esfuerzo detras para comenzar mi camino como desarrolladora y con esto mostrar un poco de lo que me gusta consumir cuando quiero ver una serie que me divierta mucho como lo es Friends. 😀
 
-Link Proyecto📋: https://friendstienda.000webhostapp.com/
+Link Proyecto📋: - [FriendsTienda](https://friendstienda.000webhostapp.com/)
 
 Uso 💪 el uso del mismo es informativo, acerca de las ultimas novedades de la serie que fue y sigue siendo furor en el tiempo, con sección de tienda online con el fin de comercializar merchandising de la serie como tambien poder contactarse con los administradores para poder alimentarse dia a dia de los beneficios y novedades que ofrecemos en el sitio.
 Para la construccion del mismo 🛠️, con muchisimo esfuerzo, fue necesario comenzar el codigo en HTML con la conexión de CSS para su diseño. Una vez comprendidas las funciones necesarias en css para el diseño eficaz de mi sitio debi aplicar tecnicas de sass generando maps, mixing y extends, ademas comprender cuales eran los meta fundamentales para el posicionamiento adecuado de mi sito.
